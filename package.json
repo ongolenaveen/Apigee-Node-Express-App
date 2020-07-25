@@ -1,0 +1,30 @@
+{
+  "name": "apigee-node-express-app",
+  "version": "1.0.0",
+  "description": "Apigee Node Express App",
+  "main": "#",
+  "scripts": {
+    "start": "node index.js --use_strict",
+    "test": "mocha tests/*.js --exit"
+  },
+  "keywords": [
+    "Apigee",
+    "Node",
+    "Express",
+    "App"
+  ],
+  "author": "Naveen Papisetty",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "chai-as-promised": "^7.1.1",
+    "cookie-parser": "^1.4.5",
+    "express": "^4.17.1",
+    "sinon": "^9.0.2"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.0.1",
+    "supertest": "^4.0.2"
+  }
+}
