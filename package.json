@@ -4,7 +4,7 @@
   "description": "Apigee Node Express App",
   "main": "#",
   "scripts": {
-    "start": "node index.js --use_strict",
+    "start": "PORT=8085 node index.js --use_strict",
     "test": "mocha tests/*.js --exit"
   },
   "keywords": [
